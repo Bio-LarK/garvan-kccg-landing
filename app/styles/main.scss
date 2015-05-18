@@ -16,7 +16,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 @include component(jumbotron) {
-
+  text-align: center;
   overflow: hidden;
   position: relative;
   background-color: black;
