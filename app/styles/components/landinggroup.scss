@@ -1,0 +1,41 @@
+@include component(landinggroup) {
+  padding: 60px 0;
+  text-align: center;
+
+
+  @include option(subtle){
+    background: #eee;
+  }
+
+  @include option(strong){
+    background: #5C2D7C;
+    color: white;
+  }
+  @include option(mission){
+    h2 {
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .subtitle {
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #666;
+  }
+  p {
+    font-size: 16px;
+  }
+}
