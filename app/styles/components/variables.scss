@@ -1,0 +1,18 @@
+$navbar-height: 100px;
+$navbar-margin-bottom: 0;
+$navbar-default-color: #333;
+$navbar-default-bg: white;
+$navbar-default-border: darken($navbar-default-bg, 6.5%) !default;
+
+$navbar-default-link-color:                #333 !default;
+$navbar-default-link-hover-color:          #111 !default;
+$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         #555 !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
