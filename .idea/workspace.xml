@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b6663d-0d77-4284-9d11-ab04409aff12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/jumbotron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/container.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/footer.scss" afterPath="$PROJECT_DIR$/app/styles/components/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/jumbotron.scss" afterPath="$PROJECT_DIR$/app/styles/components/jumbotron.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/landinggroup.scss" afterPath="$PROJECT_DIR$/app/styles/components/landinggroup.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/navbar.scss" afterPath="$PROJECT_DIR$/app/styles/components/navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/variables.scss" afterPath="$PROJECT_DIR$/app/styles/components/variables.scss" />
     </list>
     <ignored path="garvan-kccg-landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,9 +56,21 @@
       <file leaf-file-name="landinggroup.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/components/landinggroup.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5824508" vertical-offset="170" max-vertical-offset="1410">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.204236" vertical-offset="345" max-vertical-offset="1455">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="6990">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,16 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_responsive-utilities.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125" vertical-offset="1620" max-vertical-offset="2700">
-              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/components/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,6 +148,7 @@
         <option value="$PROJECT_DIR$/app/styles/components/jumbotron.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/components/variables.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/styles/components/landinggroup.scss" />
       </list>
     </option>
@@ -521,10 +515,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="6990">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/landinggroup.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5824508" vertical-offset="170" max-vertical-offset="1410">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.204236" vertical-offset="345" max-vertical-offset="1455">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
       </provider>
