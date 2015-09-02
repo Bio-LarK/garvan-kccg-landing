@@ -1,28 +1,76 @@
-@include component(landinggroup) {
-  padding: 60px 0;
+@include component(landing-group) {
+
   text-align: center;
 
-
-  @include option(subtle){
-    background: #eee;
-  }
-
-  @include option(strong){
-    background: #5C2D7C;
-    color: white;
-  }
-  @include option(mission){
-    h2 {
-      margin-bottom: 10px;
-      font-size: 30px;
-    }
-    p {
-      font-size: 24px;
-    }
+  padding: 60px 0;
+  @media (min-width: $screen-md-min) {
+    padding: 120px 0;
   }
 
   .container {
     max-width: 960px;
+  }
+
+  @include part(buttons) {
+    margin-top: 40px;
+    .btn {
+      border-radius: 100px;
+      margin-right: 10px;
+      padding: 15px 35px;
+    }
+  }
+  @include option(strong) {
+    background: #5C2D7C;
+    color: white;
+  }
+
+  @include option(subtle) {
+    background-color: rgb(250, 250, 250);
+  }
+  @include option(mission) {
+    .container {
+      max-width: 700px;
+    }
+
+    text-align: center;
+
+    h2 {
+      font-size: 42px;
+      line-height: 46px;
+      font-weight: 300;
+      text-align: center;
+      color: #3e3e3e;
+    }
+    p {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 50px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+
+  @include option(service) {
+    text-align: left;
+    color: white;
+    a.link,a.link:hover,a.link:visited {
+      color: white;
+      text-decoration: underline;
+    }
+    img {
+      width: 100%;
+      margin-bottom: 80px;
+      display: block;
+    }
+    p {
+
+    }
+    @include option(clinical) {
+      background-color: #183961;
+    }
+    @include option(research) {
+      background-color: #1490B0;
+    }
   }
 
   h2 {

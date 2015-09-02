@@ -1,26 +1,55 @@
 @include component(jumbotron) {
-  text-align: center;
+//  text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: black;
+  background-color: #001427;
   margin-bottom: 0;
+  margin-top: -60px;
+  z-index: -1;
 
-  h1, p {
-    position: relative;
-    z-index: 1;
-    color: white;
-  }
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0.5;
+  background-image: url('../images/jumbotron.png');
+  background-size: cover;
+
+
+  .container {
+    visibility: hidden;
   }
 
-  @media screen and (min-width: 768px) {
+  @media (min-width: $screen-md-min) {
+    .container {
+      padding-right: 30%;
+    }
     & {
-      padding: 70px 0;
+      padding: 180px 0 100px 0 !important;
     }
   }
+
+  h1 {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 300;
+    margin: 0 0 20px;
+    color: #ffffff;
+    letter-spacing: -1px;
+
+    text-transform: capitalize;
+
+  }
+
+  p {
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -1px;
+    margin-bottom: 35px;
+    color: #ffffff;
+  }
+
+//  img {
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+////    opacity: 0.2;
+//    z-index: -1;
+//  }
 }

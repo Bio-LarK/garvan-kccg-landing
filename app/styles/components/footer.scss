@@ -1,8 +1,11 @@
 @include component(footer) {
-  background-color: #333;
-  color: white;
-  font-size: 16px;
+//  background-color: #333;
+//  color: white;
+//  font-size: 16px;
   padding: 40px;
+  img {
+    width: 100px;
+  }
 }
 
 
