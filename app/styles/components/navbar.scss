@@ -1,7 +1,5 @@
-
-
 @include component(navbar) {
-//  background-color: transparent;
+  //  background-color: transparent;
   border-radius: 0;
   border: none;
 
@@ -12,30 +10,9 @@
       height: 40px;
       position: relative;
       top: -12px;
-      @media (min-width: $screen-md-min) {
-        display: none;
-      }
-    }
-    @media (min-width: $screen-md-min) {
-      background-color: transparent;
     }
   }
- }
-
-@include component(brand) {
-  display: none;
-
-  position: absolute;
-  top: 0;
-  left: 20px;
-  padding: 20px 20px;
-  background-color: white;
-  img {
-    width: 200px;
+  &.navbar-default .navbar-brand:hover, &.navbar-default .navbar-brand:focus {
+    background-color: white !important;
   }
-
-  @media (min-width: $screen-md-min) {
-    display: block;
-  }
-
 }
