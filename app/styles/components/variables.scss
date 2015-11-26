@@ -6,7 +6,7 @@ $navbar-default-border: darken($navbar-default-bg, 6.5%) !default;
 //
 $navbar-default-link-color:               white !default;
 $navbar-default-link-hover-color:          #eee !default;
-$navbar-default-link-hover-bg:             white !default;
+$navbar-default-link-hover-bg:             lighten($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-active-color:         white !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-disabled-color:       #ccc !default;
