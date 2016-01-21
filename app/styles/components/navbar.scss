@@ -2,13 +2,18 @@
   //  background-color: transparent;
   border-radius: 0;
   border: none;
+  font-size: small;
+  text-transform: uppercase;
 
-  .navbar-brand {
-    background-color: white;
-    img {
+  &.navbar-top {
+    height: 100px;
+    .navbar-brand {
       background-color: white;
-      height: 40px;
-      position: relative;
+      img {
+        background-color: white;
+        height: 60px;
+        position: relative;
+      }
     }
   }
   &.navbar-default .navbar-brand:hover, &.navbar-default .navbar-brand:focus {

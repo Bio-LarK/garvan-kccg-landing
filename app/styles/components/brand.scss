@@ -1,0 +1,18 @@
+@include component(brand) {
+  $logo-height: 70px;
+
+  padding: 15px;
+
+  @include part(tagline) {
+    float: right;
+    font-size: small;
+    text-transform: uppercase;
+    line-height: $logo-height;
+//    margin-top: 15px;
+  }
+  @include part(logo) {
+    img {
+      height: $logo-height;
+    }
+  }
+}

@@ -1,47 +1,68 @@
 @include component(jumbotron) {
 //  text-align: center;
-  overflow: hidden;
+  overflo: hidden;
   position: relative;
   background-color: #001427;
   margin-bottom: 0;
-  margin-top: -60px;
-  z-index: -1;
+  padding: 100px 0;
+//  margin-top: -60px;
+//  z-index: -1;
+//  color: rgba(255, 255, 255, 0.9);
 
-  background-image: url('../images/jumbotron.png');
-  background-size: cover;
+  background-color: darken($garvan-blue, 10%);
+  color: rgba(255, 255, 255, 0.9);
+//  background-image: url('../images/jumbotron.png');
+//  background-size: cover;
 
 
-  .container {
-    visibility: hidden;
-  }
+//  .container {
+//    visibility: hidden;
+//  }
 
   @media (min-width: $screen-md-min) {
     .container {
       padding-right: 30%;
     }
     & {
-      padding: 180px 0 100px 0 !important;
+      padding: 100px 0 100px 0 !important;
     }
   }
 
   h1 {
-    font-size: 36px;
-    line-height: 52px;
-    font-weight: 300;
-    margin: 0 0 20px;
-    color: #ffffff;
-    letter-spacing: -1px;
-
-    text-transform: capitalize;
+    font-size: 48px;
+//    line-height: 52px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 20px;
+//    margin: 0 0 20px;
+//    color: #ffffff;
+//    letter-spacing: -1px;
+//
+//    text-transform: capitalize;
 
   }
 
-  p {
-    font-size: 21px;
-    line-height: 27px;
-    letter-spacing: -1px;
+  p.lead {
+    color: rgba(255, 255, 255, 0.87);
+//    font-size: 21px;
+//    line-height: 27px;
+//    letter-spacing: -1px;
     margin-bottom: 35px;
-    color: #ffffff;
+//    color: #ffffff;
+  }
+  a.btn {
+    border-radius: 3px;
+    padding: 15px 35px;
+    margin-right: 10px;
+  }
+  a.btn-default {
+    line-height: 48px;
+//    height: 80px;
+  }
+  small {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
   }
 
 //  img {

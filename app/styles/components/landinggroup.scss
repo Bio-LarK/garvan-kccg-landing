@@ -14,7 +14,7 @@
   @include part(buttons) {
     margin-top: 40px;
     .btn {
-      border-radius: 100px;
+//      border-radius: 100px;
       margin-right: 10px;
       padding: 15px 35px;
     }
@@ -55,15 +55,28 @@
 
   @include option(service) {
     text-align: left;
-    color: white;
+    position: relative;
+    padding: 100px 0;
+//    color: ;
     a.link,a.link:hover,a.link:visited {
-      color: white;
-      text-decoration: underline;
+//      color: white;
+//      text-decoration: underline;
+    }
+    .icon {
+      position: absolute;
+      width: 100%;
+      top: -34px;
+      border-radius: 100px;
     }
     img {
-      width: 100%;
-      margin-bottom: 80px;
-      display: block;
+      width: 100px;
+//      left: 50%;
+//      position: absolute;
+//      top: -20px;
+
+//      width: 100%;
+//      margin-bottom: 80px;
+//      display: block;
     }
     p {
 
@@ -74,19 +87,44 @@
     @include option(research) {
       background-color: #1490B0;
     }
+    border-top: 1px solid #eee;
   }
 
   h2 {
     margin-top: 0;
     margin-bottom: 40px;
+    font-weight: 200;
+    color: black;
   }
   .subtitle {
     margin-top: -30px;
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 16px;
     color: #666;
   }
   p {
     font-size: 16px;
+  }
+
+  @include option(features) {
+    padding: 100px 0;
+    h2, h3 {
+      font-weight: 200;
+      color: black;
+    }
+    h2 {
+      font-size: 40px;
+//      margin-bottom: 0;
+    }
+    p.subtitle {
+//      margin-bottom: 20px;
+    }
+    text-align: center;
+
+    // icons
+    .fa {
+      color: $brand-primary; //RGBA(130, 36, 144, 1);
+      font-size: 80px;
+    }
   }
 }

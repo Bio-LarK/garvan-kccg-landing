@@ -22,7 +22,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,300' rel='stylesheet' type='text/css'>-->
 
 </head>
 <body>
@@ -31,26 +31,24 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<nav class="navbar navbar-default">
-    <div class="container" style="position: relative;">
-        
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="Garvan KCCG"/>
+<div class="brand">
+    <div class="container">
+        <div>
+            <div class="brand__tagline">
+                A Tagline goes here about KCCG
+            </div>
+            <a href="/index.html" class="brand__logo">
+                <img src="images/logo.png" alt="Garvan KCCG" />
             </a>
         </div>
+    </div>
+</div>
 
+<nav class="navbar navbar-default">
+    <div class="container" style="position: relative;">
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
                 <li><a href="about.html">About us</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -81,37 +79,75 @@
     <!-- /.container-fluid -->
 </nav>
 
-
-
 <div class="jumbotron">
     <div class="container">
         <h1>
-            The Kinghorn Centre for Clinical Genomics
+          The Kinghorn Centre for Clinical Genomics
         </h1>
 
         <p class="lead">
             The Kinghorn Centre for Clinical Genomics is Australia’s only provider of whole genome sequences for clinical use.  Whole genome sequencing is the most powerful approach available to diagnose genetic disease.
         </p>
+        <div>
+            <a href="for-healthcare-providers.html" class="btn btn-lg btn-primary">
+                Order a Test
+                <br/><small>Physicians Only</small>
+            </a>
+            <a href="" class="btn btn-lg btn-default">
+                Take a Tour
+            </a>
+
+
+        </div>
     </div>
     <!--<img src="images/jumbotron.png" alt=""/>-->
 </div>
 
-<div class="landing-group --mission">
+
+<div class="landing-group --features">
     <div class="container">
-        <h2>The Kinghorn Centre for Clinical Genomics</h2>
-        <p>
-            The Kinghorn Centre for Clinical Genomics is Australia’s only provider of whole genome sequences for clinical use.  Whole genome sequencing is the most powerful approach available to diagnose genetic disease.
-        </p>
+        <h2>Features about Garvan</h2>
+        <p class="subtitle">Smaller text goes here about the features.</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <i class="fa fa-ambulance"></i>
+
+                <h3>Feature 1</h3>
+                <p>
+                    Optio dolores expedita unde vel laudantium enim nisi eos distinctio, rem. Repellat repudiandae quos laborum magni.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-heartbeat"></i>
+                <h3>Feature 1</h3>
+                <p>
+                    Praesentium reprehenderit quae, sequi deserunt laboriosam velit necessitatibus nulla ea optio, quis nam pariatur.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-hospital-o"></i>
+
+                <h3>Feature 1</h3>
+                <p>
+                    Aperiam recusandae ipsa culpa, cupiditate magnam dolor molestiae, omnis, architecto possimus aperiam corrupti corporis.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="landing-group --service --clinical">
+<div class="landing-group --service">
+    <div class="text-center icon">
+        <img src="images/clinical_icon.png" alt=""/>
+    </div>
+
     <div class="container">
         <div class="row">
-            <div class="col-sm-4" style="text-align: right;">
-                <img src="images/clinical_icon.png" alt=""/>
-            </div>
-            <div class="col-sm-8">
+
+            <!--<div class="col-sm-4" style="text-align: right;">-->
+
+            <!--</div>-->
+            <div class="col-sm-12">
                 <h2>Clinical Whole Genome Sequencing</h2>
                 <p>
                     Clinical Whole Genome Sequencing (WGS) is a clinician-referred service that is intended for diagnosis of rare and heritable diseases. Clinical WGS is typically ordered for patients with a condition that has strong evidence for a genetic basis.  Clinical WGS may be requested for only the affected individual (proband), for the affected individual and both parents (trio) or other affected family members. Genomes are interpreted by an expert clinical team and all results are reviewed by a genetic pathologist. Samples may be provided as purified DNA or as blood. Further information on clinical whole genome sequencing is available for patients and providers.
@@ -125,13 +161,13 @@
     </div>
 </div>
 
-<div class="landing-group --service --research">
+<div class="landing-group --service">
+    <div class="text-center icon">
+        <img src="images/research_icon.png" alt=""/>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <img src="images/research_icon.png" alt=""/>
-            </div>
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <h2>Research Whole Genome Sequencing Service</h2>
                 <p>
                     The Research Whole Genome Sequencing Service is a researcher-initiated service that is intended for human genome research studies that have been approved by a human research ethics committee (HREC). Samples sequenced through this service would be from research participants who have provided informed consent for WGS as part of an HREC-approved study.
